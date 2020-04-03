@@ -1,0 +1,104 @@
+html{
+	scroll-behavior: smooth;
+}
+.home{
+	background-image: url("2.jpeg");
+	background-size: cover;
+	height:100vh;
+	}
+.menudropdown{
+			margin:0px auto;
+			height: 150px;
+			
+			margin-left:533px;
+		}
+.menudropdown ul{
+			padding: 0px;
+		}
+.menudropdown ul li{
+			float: left;
+			background-color: #F5740E;
+			width: 150px;
+			height: 50px;
+			line-height: 50px;
+			list-style-type: none;
+			text-align: center;
+			opacity: 0.8;
+		}
+a{
+			color: white;
+			text-decoration: none;
+			font-size: 20px;
+
+		}
+.menudropdown ul li ul{
+			display: none;
+		}
+.menudropdown ul li:hover > ul{
+			display: block;
+
+		}
+.menudropdown ul li:hover , .menudropdown ul li a:hover{
+			background-color: #CCB6A4;
+			color:black;
+		}
+img{
+	float: left;
+	width: 200px;
+	height:50px;
+}
+.welcome h3{
+	color:#F5740E;
+	font-family: lucida calligraphy;
+	font-size: 40px;
+	margin-left: 50px;
+}
+.welcome h1{
+	color:white;
+	font-family: lucida calligraphy;
+	width: 400px;
+	margin-left: 50px;
+}
+.about{
+	margin-top: 200px;
+	width:75%;
+	margin-left: 200px;
+}
+.about h3{
+	color:#EC8123;
+	margin-top: 150px;
+}
+	
+
+.about h1{
+	margin-top: 50px;
+	color: black;
+	font-size:50px;
+	font-family: Franklin Gothic;
+
+}
+.about h4{
+	color:#A9A19A ;
+	text-align: center;
+	font-size: 30px;
+	width:100%;
+	margin-top: 50px;
+	font-family: Fixedsys;
+}
+.mission {
+	margin-left:100px;
+	margin-top: 200px;
+}
+.mission h2{
+	margin-top: 50px;
+	font-family: bold;
+}
+.mission h3{
+	font-family: Courier;
+	margin-top: 50px;
+	width:30%;
+	color: #B7B3B0;
+}
+.mission h2:after{
+	content: ⟴;
+}
